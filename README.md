@@ -1,7 +1,11 @@
 # Teste: Desenvolvedor Fullstack (PHP)
 
-## Instação com Laravel Sail
+## Instação com Laravel Sail - Docker
 
+- `git clone git@github.com:FeTares/laravel-test-full-stack.git`
+- `cd laravel-test-full-stack/`
+- `cp .env.example .env`
+- `docker run --rm -v $(pwd):/opt -w /opt laravelsail/php80-composer:latest composer install`
 - `vendor/bin/sail up -d`
 - `vendor/bin/sail composer install`
 - `cp .env.example .env`
