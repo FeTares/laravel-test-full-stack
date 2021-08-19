@@ -1,6 +1,6 @@
 # Teste: Desenvolvedor Fullstack (PHP)
 
-## Instação com Laravel Sail - Docker
+## Instalação com Laravel Sail - Docker
 
 - `git clone git@github.com:FeTares/laravel-test-full-stack.git`
 - `cd laravel-test-full-stack/`
